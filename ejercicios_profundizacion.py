@@ -18,24 +18,31 @@ __version__ = "1.3"
 
 def ej1():
     # Ejercicios de práctica con números
-    print('Nuestra primera calculadora')
-    '''
-    Realice un calculadora, se ingresará por línea de comando dos
-    números reales y se deberá calcular todas las operaciones entre ellos:
-    - Suma
-    - Resta
-    - Multiplicación
-    - División
-    - Exponente/Potencia
+    # print('Nuestra primera calculadora')
+    # '''
+    # Realice un calculadora, se ingresará por línea de comando dos
+    # números reales y se deberá calcular todas las operaciones entre ellos:
+    # - Suma
+    # - Resta
+    # - Multiplicación
+    # - División
+    # - Exponente/Potencia
 
-    - Para todos los casos se debe imprimir en pantalla el resultado aclarando
-      la operación realizada en cada caso y con que números
-      se ha realizado la operación
-      ej: La suma entre 4.2 y 6.5 es 10.7
-
-    '''
-
-
+    # - Para todos los casos se debe imprimir en pantalla el resultado aclarando
+    #   la operación realizada en cada caso y con que números
+    #   se ha realizado la operación
+    #   ej: La suma entre 4.2 y 6.5 es 10.7
+    
+  print ("modulo 2 ejercicio profundizacion 1")
+  print ("ingrese un primer numero con 1 decimal")
+  numero_1 = float(input())
+  print("Ingrese segundo numero con 1 decimal")
+  numero_2 = float(input())
+  print("la suma de",numero_1, "y",numero_2 ,"es" ,numero_1+numero_2)
+  print("la resta de",numero_1, "y",numero_2 ,"es" ,numero_1-numero_2)
+  print("la multiplicacion de",numero_1, "y",numero_2 ,"es" ,numero_1*numero_2)
+  print("la division de",numero_1, "y",numero_2 ,"es" ,numero_1/numero_2)
+  print("la exponencializacion de ",numero_1, "y",numero_2 ,"es" ,numero_1**numero_2)
 def ej2():
     print('Ejercicios de práctica numérica y cadenas')
     '''
